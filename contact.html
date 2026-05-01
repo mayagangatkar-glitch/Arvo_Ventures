@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | ARVO Group</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-strip">
+    <div class="container top-strip-inner">
+      <span>Bengaluru | Mysuru</span>
+      <a href="mailto:sagar.as3118@gmail.com">sagar.as3118@gmail.com</a>
+      <a href="https://www.instagram.com/arvo_ventures/" target="_blank" rel="noopener">@arvo_ventures</a>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <nav class="container navbar" aria-label="Primary navigation">
+      <a class="brand" href="index.html">
+        <img src="assets/arvo-logo.svg" alt="ARVO Group logo">
+        <span>ARVO Group</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero page-hero">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+        <h1>Get in touch with ARVO Group.</h1>
+        <p class="hero-text">Send your enquiry and our team will help you with the next step.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container">
+        <div class="contact-layout">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="name">
+                <small class="error-message"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email">
+                <small class="error-message"></small>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" autocomplete="tel">
+                <small class="error-message"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="service">Service</label>
+                <select id="service" name="service">
+                  <option value="">Select a service</option>
+                  <option>Gold Buy/Sell</option>
+                  <option>Livestock Farming</option>
+                  <option>Lease/Rent Properties</option>
+                  <option>Arvo Couriers</option>
+                  <option>Arvo Interior Design</option>
+                </select>
+                <small class="error-message"></small>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help"></textarea>
+              <small class="error-message"></small>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Submit Enquiry</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+
+          <aside class="contact-info">
+            <h3>Business Contact Details</h3>
+            <p><strong>Business:</strong> ARVO Group</p>
+            <p><strong>Contact Person:</strong> Sagar</p>
+            <p><strong>Email:</strong> <a href="mailto:sagar.as3118@gmail.com">sagar.as3118@gmail.com</a></p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/arvo_ventures/" target="_blank" rel="noopener">@arvo_ventures</a></p>
+
+            <div class="map-frame">
+              <iframe
+                title="ARVO Group location map"
+                src="https://www.google.com/maps?q=TKCEnclave%201666%2027th%20Main%20Rd%202nd%20Sector%20Parangi%20Palaya%20Sector%202%20HSR%20Layout%20Bengaluru%20Karnataka%20560102&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+
+            <div class="location-list">
+              <p><strong>Bengaluru:</strong> TKCEnclave, 1666, 27th Main Rd, 2nd Sector, Parangi Palaya, Sector 2, HSR Layout, Bengaluru, Karnataka 560102</p>
+              <p><strong>Mysuru:</strong> Diya Arcade, Kantharaja Urs Rd, behind Karnataka Press, Kukkarahalli, Saraswathipuram, Mysuru, Karnataka 570009</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="whatsapp-button" href="https://wa.me/910000000000?text=Hello%20ARVO%20Group%2C%20I%20want%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener" aria-label="Chat with ARVO Group on WhatsApp">WA</a>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; 2026 ARVO Group. All rights reserved.</p>
+      <a href="https://www.instagram.com/arvo_ventures/" target="_blank" rel="noopener">Visit Instagram: @arvo_ventures</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
